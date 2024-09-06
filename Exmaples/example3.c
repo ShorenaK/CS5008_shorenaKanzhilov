@@ -3,11 +3,11 @@
 #include <time.h>
 
 int main(){
-	int array[3];
-	array[0] = 0;
+	int array[3] = {1, 2, 3,};
+	/*array[0] = 0;
 	array[1] = 1;
 	array[2] = 2;
-
+	*/
 	for (int i = 0; i < 3; i++ ){
 		printf("%d\n", array[i]);
 	}
