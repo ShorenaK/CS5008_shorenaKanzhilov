@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-//myfirst Hello World in C
+//This is the entry point to my program. 
 int main(){
-	printf("Hello World!\n");
+	int accountId = 5;
+	printf("accountID is %d\n", accountId);
 	return 0;
 }
