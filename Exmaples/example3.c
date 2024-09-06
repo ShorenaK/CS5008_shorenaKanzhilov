@@ -8,6 +8,12 @@ int main(){
 	array[1] = 1;
 	array[2] = 2;
 	*/
+	
+	for (int i = 0; i < 3; i ++){
+		array[i] = i * 100;
+	}
+
+
 	for (int i = 0; i < 3; i++ ){
 		printf("%d\n", array[i]);
 	}
