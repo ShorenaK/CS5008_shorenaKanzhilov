@@ -7,6 +7,12 @@ void foo(int arg1){
 	printf("From ff: %d\n", arg1);
 }
 
+int sum(int a, int b){
+	return a + b;
+
+}
+
+
 void bar();
 
 int main(){
@@ -16,8 +22,11 @@ int main(){
 }
 
 void bar(){
-	printf("bar()\n");
+	int num1 = 5;
+	int num2 = 6;
+	int result = sum(num1, num2);
+	printf("%d + %d = %d\n", num1, num2, result);
 
-}
+};
 
 
