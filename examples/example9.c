@@ -7,7 +7,7 @@ typedef struct student{
 
 
 void printStudent(student_t* aStudent){
-	printf("Student ID: %d, Age: %d\n",(*aStudent).id, (*aStudent).age);
+	printf("Student ID: %d, Age: %d\n",aStudent->id, (*aStudent).age);
 
 }
 
