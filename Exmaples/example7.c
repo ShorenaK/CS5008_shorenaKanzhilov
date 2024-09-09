@@ -11,8 +11,11 @@ int main(){
 
 	printf("Value is: %d\n", value);
 	printf("The address of value is: %p\n", p_value);
-
-	update(value);
+	printf("The value at p_value is: %d\n", *p_value);
+	
+	*p_value = 15;
+	printf("The new value of ponter variable is: %d\n ", *p_value );
+	//update(value);
 	printf("Value updated is: %d\n", value);
 	return 0;
 }
